@@ -12,7 +12,7 @@ so I guess I'll try to answer it here.
 
 To be clear, I'm basing my answer off my own implementation of the algorithms.
 
-Space complexity of the algorithms is pretty similar. The majority of the memory they use (beyond the physical memory) is the tracking list which is usually the contains an element for each frame of physical memory
+Space complexity of the algorithms is pretty similar. The majority of the memory they use (beyond the physical memory) is the tracking list which usually contains an element for each frame of physical memory
 (optimal's tracking list only ever goes up to frame - 1 in size but that's hardly a difference, especially since it uses an extra integer for iteration)
 
 
